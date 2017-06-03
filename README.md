@@ -8,9 +8,10 @@ This is the code for [this](https://youtu.be/N4gDikiec8E) video on Youtube by Si
 
 ## Dependencies
 
-None! 
-
-Install Jupyter notebook from [here](http://jupyter.readthedocs.io/en/latest/install.html)
+conda create -n py2 python=2 
+conda install pandas matplotlib scikit-learn
+conda install jupyter notebook 
+source activate py2
 
 ## Usage
 
